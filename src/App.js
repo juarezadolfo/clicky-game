@@ -11,7 +11,7 @@ class App extends Component {
     cars
   };
 
-  removeFriend = id => {
+  removeCar = id => {
     // Filter this.state.cars for cars with an id not equal to the id being removed
     const cars = this.state.cars.filter(car => car.id !== id);
     // Set this.state.cars equal to the new cars array
