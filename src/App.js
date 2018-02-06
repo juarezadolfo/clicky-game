@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import CarCard from "./components/CarCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
+import Nav from "./components/Nav";
 import cars from "./cars.json";
 import "./App.css";
 
@@ -18,11 +19,16 @@ class App extends Component {
     this.setState({ cars });
   };
 
-  // Map over this.state.cars and render a CarCard component for each friend object
+  // Map over this.state.cars and render a CarCard component for each car object
   render() {
     return (
-      <Wrapper>
-        <Title>MOPAR or No Car List!</Title>
+
+    
+      
+    
+      <Wrapper>   
+        <Nav></Nav>  
+        <Title>MOPAR or No Car!</Title>
         {this.state.cars.map(car => (
           <CarCard
             removeCar={this.removeCar}

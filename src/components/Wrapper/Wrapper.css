@@ -1,6 +1,7 @@
 .wrapper {
     padding-top: 50px;
     background: #ECEFF1;
+    background-image: url("../Images/MOPAR_logo012.png");
     height: 100%;
     display: flex;
     flex-flow: row wrap;
