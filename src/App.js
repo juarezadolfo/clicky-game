@@ -22,10 +22,6 @@ class App extends Component {
   // Map over this.state.cars and render a CarCard component for each car object
   render() {
     return (
-
-    
-      
-    
       <Wrapper>   
         <Nav></Nav>  
         <Title>MOPAR or No Car!</Title>
