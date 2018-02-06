@@ -1,19 +1,42 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import CarCard from "./components/CarCard";
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
+import cars from "./cars.json";
+import "./App.css";
 
 class App extends Component {
+  // Setting this.state.cars to the cars json array
+  state = {
+    cars
+  };
+
+  removeFriend = id => {
+    // Filter this.state.cars for cars with an id not equal to the id being removed
+    const cars = this.state.cars.filter(car => car.id !== id);
+    // Set this.state.cars equal to the new cars array
+    this.setState({ cars });
+  };
+
+  // Map over this.state.cars and render a CarCard component for each friend object
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Wrapper>
+        <Title>MOPAR or No Car List!</Title>
+        {this.state.cars.map(car => (
+          <CarCard
+            removeCar={this.removeCar}
+            id={car.id}
+            key={car.id}
+            year={car.year}
+            make={car.make}
+            image={car.image}
+            color={car.color}
+            model={car.model}
+            top={car.top}
+          />
+        ))}
+      </Wrapper>
     );
   }
 }

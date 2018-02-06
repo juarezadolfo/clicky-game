@@ -1,0 +1,84 @@
+[
+    {
+      "id": 1,
+      "top": "Hardtop",
+      "make": "Plymouth",
+      "model": "HEMI 'Cuda",
+      "color": "Sublime Green",
+      "image": "https://www.carsbase.com/photo/Plymouth-Hemi_Cuda_mp74_pic_82946.jpg",
+      "year": "1972"
+    },
+    {
+      "id": 2,
+      "top": "Convertible",
+      "make": "Plymouth",
+      "model": "HEMI 'Cuda",
+      "color": "Lemon Twist",
+      "image": "https://www.carsbase.com/photo/Plymouth-Hemi_Cuda_mp74_pic_82102.jpg",
+      "year": "1971"
+    },
+    {
+      "id": 3,
+      "top": "Hardtop",
+      "make": "Plymouth",
+      "model": "HEMI 'Cuda",
+      "color": "Ice Blue",
+      "image": "https://www.carsbase.com/photo/Plymouth-Hemi_Cuda_mp74_pic_82947.jpg",
+      "year": "1974"
+    },
+    {
+      "id": 4,
+      "top": "Hardtop",
+      "make": "Plymouth",
+      "model": "HEMI 'Cuda",
+      "color": "Blue Fire",
+      "image": "https://www.carsbase.com/photo/Plymouth-Hemi_Cuda_mp74_pic_82087.jpg",
+      "year": "1970"
+    },
+    {
+      "id": 5,
+      "top": "Hardtop",
+      "make": "Dodge",
+      "model": "Challenger Hellcat",
+      "color": "Redline Red Pearl Tricoat",
+      "image": "https://www.carsbase.com/photo/Dodge-Challenger_mp19_pic_139619.jpg",
+      "year": "2015"
+    },
+    {
+      "id": 5,
+      "top": "Hardtop",
+      "make": "Dodge",
+      "model": "Challenger RT",
+      "color": "Light Green Metallic",
+      "image": "https://www.carsbase.com/photo/Dodge-Challenger_mp19_pic_40432.jpg",
+      "year": "1973"
+    },
+    {
+      "id": 6,
+      "top": "Hardtop",
+      "make": "Dodge",
+      "model": "Challenger T/A",
+      "color": "Torred",
+      "image": "https://www.carsbase.com/photo/Dodge-Challenger_mp19_pic_53703.jpg",
+      "year": "1970"
+    },
+    {
+      "id": 7,
+      "top": "Convertible",
+      "make": "Dodge",
+      "model": "Viper SRT-10",
+      "color": "Snakeskin Green",
+      "image": "https://www.carsbase.com/photo/Dodge-Viper_SRT_10_mp19_pic_48673.jpg",
+      "year": "2008"
+    },
+    {
+      "id": 8,
+      "top": "Convertible",
+      "make": "Dodge",
+      "model": "Viper Roadster",
+      "color": "Venom Red Pearl",
+      "image": "https://www.carsbase.com/photo/Dodge-Viper_SRT_10_mp19_pic_40476.jpg",
+      "year": "2008"
+    }
+  ]
+  
